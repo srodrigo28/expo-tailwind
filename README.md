@@ -7,6 +7,7 @@ https://www.nativewind.dev/getting-started/expo-router
 npx expo install nativewind tailwindcss react-native-reanimated react-native-safe-area-context
 
 #### 2. Run pod-install to finish installation of react-native-reanimated
+* num deu
 npx pod-install
 
 #### 3. Setup Tailwind CSS
@@ -56,5 +57,5 @@ const { withNativeWind } = require("nativewind/metro");
 
 const config = getDefaultConfig(__dirname);
 
-module.exports = withNativeWind(config, { input: "./global.css" });
+module.exports = withNativeWind(config, { input: "./src/styles/global.css" });
 ```
