@@ -6,10 +6,6 @@ https://www.nativewind.dev/getting-started/expo-router
 #### 1. Install NativeWind
 npx expo install nativewind tailwindcss react-native-reanimated react-native-safe-area-context
 
-#### 2. Run pod-install to finish installation of react-native-reanimated
-* num deu
-npx pod-install
-
 #### 3. Setup Tailwind CSS
 ```
 npx tailwindcss init
