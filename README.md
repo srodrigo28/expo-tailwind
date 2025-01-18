@@ -65,3 +65,14 @@ export default function RootLayout(){
     return <Slot/>
 }
 ```
+#### 7. Observações
+
+* caso baixe do git  :: instalar as dependências
+```
+yarn add expo
+```
+
+* agora só rodar o projeto
+```
+npx expo start
+```
