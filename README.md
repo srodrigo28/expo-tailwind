@@ -56,7 +56,7 @@ const config = getDefaultConfig(__dirname);
 module.exports = withNativeWind(config, { input: "./src/styles/global.css" });
 ```
 
-#### 6. nata src/app _layout.tsx
+#### 6. nata src/app/_layout.tsx
 ```
 import "../styles/global.css"
 import { Slot } from "expo-router";
